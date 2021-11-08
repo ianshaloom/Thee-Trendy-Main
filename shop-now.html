@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assetss/ico/favicon.png">
+
+    <title>Shop Now</title>
+
+    <link href="assetss/css/hover_pack.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assetss/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assetss/css/main.css" rel="stylesheet">
+    <link href="assetss/css/colors/color-74c9be.css" rel="stylesheet">
+    <link href="assetss/css/animations.css" rel="stylesheet">
+    <link href="assetss/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- JavaScripts needed at the beginning
+    ================================================== -->
+    <script type="text/javascript" src="http://alvarez.is/demo/marco/assetss/js/twitterFetcher_v10_min.js"></script>
+
+    <!-- MAP SCRIPT - ALL CONFIGURATION IS PLACED HERE - VIEW OUR DOCUMENTATION FOR FURTHER INFORMATION -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+    <script type="text/javascript">
+        // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 11,
+
+                scrollwheel: false,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(40.6700, -73.9400), // New York
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [{
+                    featureType: 'water',
+                    stylers: [{
+                        color: '#74c9be'
+                    }, {
+                        visibility: 'on'
+                    }]
+                }, {
+                    featureType: 'landscape',
+                    stylers: [{
+                        color: '#f2f2f2'
+                    }]
+                }, {
+                    featureType: 'road',
+                    stylers: [{
+                        saturation: -100
+                    }, {
+                        lightness: 45
+                    }]
+                }, {
+                    featureType: 'road.highway',
+                    stylers: [{
+                        visibility: 'simplified'
+                    }]
+                }, {
+                    featureType: 'road.arterial',
+                    elementType: 'labels.icon',
+                    stylers: [{
+                        visibility: 'off'
+                    }]
+                }, {
+                    featureType: 'administrative',
+                    elementType: 'labels.text.fill',
+                    stylers: [{
+                        color: '#444444'
+                    }]
+                }, {
+                    featureType: 'transit',
+                    stylers: [{
+                        visibility: 'off'
+                    }]
+                }, {
+                    featureType: 'poi',
+                    stylers: [{
+                        visibility: 'off'
+                    }]
+                }]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('map');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+
+    </script>
+
+
+    <!-- Main Jquery & Hover Effects. Should load first -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assetss/js/hover_pack.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+    <!==========HEADERWRAP=================================================================================================================================================================================================================================>
+        <div id="headerwrap">
+            <div class="container">
+                <div class="row centered">
+                    <div class="col-lg-8 col-lg-offset-2 mt">
+                        <h1 class="animation slideDown">NEW ARRIVALS</h1>
+                        <a href="index.html" class="mt"><button type="button" class="btn btn-cta btn-lg">BACK HOME</button></a>
+                    </div>
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div> <!-- /headerwrap -->
+
+        <!==========BLOG POSTS=================================================================================================================================================================================================================================>
+            <div class="container">
+
+                <div class="row mt centered ">
+                    <div class="col-lg-4 col-lg-offset-4">
+                        <h3>We Bring You No Less Than Our Best!</h3>
+                        <h3>Be Sure To Get The Rest!</h3>
+                        <hr>
+                    </div>
+                </div><!-- /row -->
+
+                <div class="row mt">
+                    <div class="col-lg-4 col-md-4 col-xs-12 desc">
+                        <a class="b-link-fade b-animate-go" href="#">
+                            <img width="350" height="300" src="assetss/img/portfolio/port01.jpg" alt="" />
+                            <div class="b-wrapper">
+                                <h4 class="b-from-left b-animate b-delay03">Banana Nike</h4>
+                                <p class="b-from-right b-animate b-delay03">Kes.5500</p>
+                            </div>
+                        </a>
+                        <p>#Classy!</p>
+                        <p class="lead">With the Logo curved all banana like from the side of the shoe, you would be lying to say to not have been able to spot this shoe from a mile away. Its gorgeous classy design makes it one of the best shoes in the market right now.</p>
+                        <hr-d>
+
+                    </div><!-- col-lg-4 -->
+
+                    <div class="col-lg-4 col-md-4 col-xs-12 desc">
+                        <a class="b-link-fade b-animate-go" href="#"><img width="350" height="300" src="assetss/img/portfolio/9.jpg" alt="" />
+                            <div class="b-wrapper">
+                                <h4 class="b-from-left b-animate b-delay03">Air Squeezer</h4>
+                                <p class="b-from-right b-animate b-delay03">Kes.4500</p>
+                            </div>
+                        </a>
+                        <p>#Kool!</p>
+                        <p class="lead">Say you wanted to feel to feel taller than you already are. The sole of this shoe will definitely raise you sky high if you kow what I mean of course. It comes in a array of splashed colour giving it a cool😎 look and feel.</p>
+                        <hr-d>
+
+                    </div><!-- col-lg-4 -->
+
+                    <div class="col-lg-4 col-md-4 col-xs-12 desc">
+                        <a class="b-link-fade b-animate-go" href="#"><img width="350" height="300" src="assetss/img/portfolio/6.jpg" alt="" />
+                            <div class="b-wrapper">
+                                <h4 class="b-from-left b-animate b-delay03">Sneak Slick</h4>
+                                <p class="b-from-right b-animate b-delay03">Kes.6000</p>
+                            </div>
+                        </a>
+                        <p>#The all rounder</p>
+                        <p class="lead">The all rounder indeed! From being able to use this as a sport wear to being casual, this footwear here is a one of a kind. Buy it once and you'll want another; Leave it and you'll forever regret it, trust me.</p>
+                        <hr-d>
+
+                    </div><!-- col-lg-4 -->
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+            <!==========CALL TO ACTION 1===========================================================================================================================================================================================================================>
+                <div id="cta01">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <h2>Help Us Grow And We Shall Grow Together!</h2>
+                            </div>
+                        </div><!-- /row -->
+                    </div><!-- /container -->
+                </div>
+                <! --/cta01 -->
+
+                    <!==========PORTFOLIO SECTION==========================================================================================================================================================================================================================>
+                        <div class="container">
+                            <div class="row mt centered ">
+                                <div class="col-lg-4 col-lg-offset-4">
+                                    <h3>Our Clients' Favourites</h3>
+                                    <hr>
+                                </div>
+                            </div><!-- /row -->
+                            <div class="row mt centered">
+                                <div class="col-lg-4 desc">
+                                    <a class="b-link-fade b-animate-go" href="#"><img width="350" src="assetss/img/portfolio/3.jpg" alt="" />
+                                        <div class="b-wrapper">
+                                            <h4 class="b-from-left b-animate b-delay03">Slicker Sneaker</h4>
+                                            <p class="b-from-right b-animate b-delay03">Kes.5000</p>
+                                        </div>
+                                    </a>
+                                    <p>Slicker Sneaker<i class="fa fa-heart-o"></i></p>
+                                </div>
+                                <div class="col-lg-4 desc">
+                                    <a class="b-link-fade b-animate-go" href="#"><img width="350" src="assetss/img/portfolio/8.jpg" alt="" />
+                                        <div class="b-wrapper">
+                                            <h4 class="b-from-left b-animate b-delay03">Climber 500s</h4>
+                                            <p class="b-from-right b-animate b-delay03">Kes.4800</p>
+                                        </div>
+                                    </a>
+                                    <p>Cimber 500s<i class="fa fa-heart-o"></i></p>
+                                </div>
+                                <div class="col-lg-4 desc">
+                                    <a class="b-link-fade b-animate-go" href="#"><img width="350" src="assetss/img/portfolio/4.jpg" alt="" />
+                                        <div class="b-wrapper">
+                                            <h4 class="b-from-left b-animate b-delay03">Slit Peak</h4>
+                                            <p class="b-from-right b-animate b-delay03">Kes.4300</p>
+                                        </div>
+                                    </a>
+                                    <p>Slit Peak<i class="fa fa-heart-o"></i></p>
+                                </div>
+                            </div><!-- /row -->
+                            <div class="row mt centered">
+                                <div class="col-lg-4 desc">
+                                    <a class="b-link-fade b-animate-go" href="#"><img width="350" src="assetss/img/portfolio/2.jpg" alt="" />
+                                        <div class="b-wrapper">
+                                            <h4 class="b-from-left b-animate b-delay03">Rabada</h4>
+                                            <p class="b-from-right b-animate b-delay03">Kes.4100</p>
+                                        </div>
+                                    </a>
+                                    <p>Rabada<i class="fa fa-heart-o"></i></p>
+                                </div>
+                                <div class="col-lg-4 desc">
+                                    <a class="b-link-fade b-animate-go" href="#"><img width="350" src="assetss/img/portfolio/10.jpeg" alt="" />
+                                        <div class="b-wrapper">
+                                            <h4 class="b-from-left b-animate b-delay03">Fleezer</h4>
+                                            <p class="b-from-right b-animate b-delay03">Kes.4700</p>
+                                        </div>
+                                    </a>
+                                    <p>Fleezer<i class="fa fa-heart-o"></i></p>
+                                </div>
+                                <div class="col-lg-4 desc">
+                                    <a class="b-link-fade b-animate-go" href="#"><img width="350" src="assetss/img/portfolio/5.jpg" alt="" />
+                                        <div class="b-wrapper">
+                                            <h4 class="b-from-left b-animate b-delay03">Raider</h4>
+                                            <p class="b-from-right b-animate b-delay03">Kes.5100</p>
+                                        </div>
+                                    </a>
+                                    <p>Raider<i class="fa fa-heart-o"></i></p>
+                                </div>
+                            </div><!-- /row -->
+
+                            <!-- Bootstrap core JavaScript
+    ================================================== -->
+                            <!-- Placed at the end of the document so the pages load faster -->
+                            <script src="assetss/js/bootstrap.min.js"></script>
+                            <script src="assetss/js/retina.js"></script>
+
+
+                            <script>
+                                $(window).scroll(function() {
+                                    $('.si').each(function() {
+                                        var imagePos = $(this).offset().top;
+
+                                        var topOfWindow = $(window).scrollTop();
+                                        if (imagePos < topOfWindow + 400) {
+                                            $(this).addClass("slideUp");
+                                        }
+                                    });
+                                });
+
+                            </script>
+
+
+
+
+</body>
+
+</html>
